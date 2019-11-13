@@ -1,9 +1,3 @@
-provider "aws" {
-  region     = "us-west-2"
-  access_key = "AKIAIWUHMW62URZFQMZQ"
-  secret_key = "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"
-}
-
 resource "aws_iam_role" "Engineering_role" {
   name = "Engineering_role"
 
